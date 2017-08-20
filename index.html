@@ -2,15 +2,26 @@
 <html>
 
 <head>
-  <title>Trivia Game</title>
-</head>
+	<title>Trivia Game</title>
+	<div class="jumbotron">
+		<h1>Trivia Game</h1>
+	</div>
+  </head>
 
 <body>
-  <p> Time Remaining: <span id="countdowntimer">30 </span> Seconds</p>
+	<div id="startButton">
+		<button type="button" class="btn btn secondary" id="startGame">Start Game</button>
+	</div>
+
+
+	<p>Time Remaining: <span id="countdowntimer">30 </span> Seconds</p>
+
+	<div id="questionList"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
-
+	
+	
 </body>
 
 </html>
